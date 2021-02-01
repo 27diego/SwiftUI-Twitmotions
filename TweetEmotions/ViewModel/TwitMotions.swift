@@ -21,7 +21,7 @@ class TwitMotions: ObservableObject {
     
     
     init(){
-        swifter = Swifter(consumerKey: "IINoUzOJSKLXwr4PzMjEFbuH6", consumerSecret: "bwK1TAIeufmVjgLwVjKDd1JUTeHwiJAywfslxCgt7QgfBf4a8i")
+        swifter = Swifter(consumerKey: "", consumerSecret: "")
         sentimentClassifier = TweetSentimentClassifier()
     }
     
